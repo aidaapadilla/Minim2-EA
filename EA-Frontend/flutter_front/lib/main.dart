@@ -21,6 +21,8 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'models/language_constants.dart';
 
+import 'package:flutter_front/views/report.dart';
+
 void main() {
   runApp(
     MultiProvider(
@@ -29,7 +31,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => ParkingServices()),
         ChangeNotifierProvider(create: (_) => BookingServices()),
       ],
-      child: const MyApp(),
+      child: const Login(),
     ),
   );
 }
