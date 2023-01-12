@@ -25,6 +25,8 @@ BACKEND:
     
     - Un lliscador per seleccionar el grau de gravetat
     
+    - Un botó per enviar la informació
+    
   Un cop es fa click a submit s'agafa la hora del ordinador i els camps anteriors i s'envia cap a backend.
   
   S'ha creat un servei que pot crear un parking, esborrar-lo i agafar-los tots.
